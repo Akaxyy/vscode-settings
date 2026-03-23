@@ -4,7 +4,7 @@ Extension dependencies:
 - Min Theme
 - Fluent Icons
 - Symbols
-- Apc Customize UI++
+Low priority
 - ESLint
 - Code Spell Checker
 - Tailwind CSS IntelliSense
