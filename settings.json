@@ -1,6 +1,6 @@
 {
   // ==========================================
-  // 🎨 TEMA, FONTES E VISUAL (Priorizados da outra config)
+  // TEMA, FONTES E VISUAL
   // ==========================================
   "workbench.colorTheme": "Min Dark",
   "workbench.productIconTheme": "fluent-icons",
@@ -12,13 +12,13 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
-  "editor.lineHeight": 1.8, // Mantive 1.8 da sua base atual para leitura confortável
+  "editor.lineHeight": 1.8,
   
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.fontSize": 15,
 
   // ==========================================
-  // 📂 FILE NESTING (Mesclado com os padrões avançados)
+  // FILE NESTING
   // ==========================================
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
@@ -40,7 +40,7 @@
   },
 
   // ==========================================
-  // ⚙️ RESTANTE DA SUA CONFIGURAÇÃO BASE
+  // RESTANTE CONFIGURAÇÃO BASE
   // ==========================================
   "workbench.startupEditor": "newUntitledFile",
   "javascript.suggest.autoImports": true,
@@ -172,7 +172,7 @@
   "workbench.editor.empty.hint": "hidden",
   "update.showReleaseNotes": false,
   "security.promptForLocalFileProtocolHandling": false,
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "default",
   "custom-ui-style.electron": {
     "frame": false,
     "titleBarStyle": "hiddenInset",
