@@ -197,7 +197,7 @@
   "custom-ui-style.font.sansSerif": "Inter, -apple-system",
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
-  "window.titleBarStyle": "native",
+  "window.titleBarStyle": "custom", // Em caso de Mac usar *native*
   "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "foldersNestsFiles",
   "cSpell.userWords": [
