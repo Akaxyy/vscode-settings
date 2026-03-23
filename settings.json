@@ -5,7 +5,7 @@
   "workbench.colorTheme": "Min Dark",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
-  "workbench.preferredDarkColorTheme": "Oscura Dusk",
+  "workbench.preferredDarkColorTheme": "Min Dark",
   "workbench.preferredLightColorTheme": "Oscura Dusk",
   "window.autoDetectColorScheme": true,
   
@@ -22,7 +22,7 @@
   // ==========================================
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "package.json": "pnpm-lock.yaml, postcss.*.mjs, prisma.*.ts, components.json, eslint.*.mjs, next-env.d.ts, next.*.ts, tsconfig.json, .npmrc, .env*, package-lock.json, yarn.lock, bun.lockb, bun.lock, .eslint*, eslint.config.*, prettier*, tsconfig*, vite*, pnpm-*, nest*",
+    "package.json": "pnpm-lock.yaml, postcss.*.mjs, prisma.*.ts, components.json, eslint.*.mjs, next-env.d.ts, next.*.ts, tsconfig.json, .npmrc, package-lock.json, yarn.lock, bun.lockb, bun.lock, .eslint*, eslint.config.*, prettier*, tsconfig*, vite*, pnpm-*, nest*",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*",
@@ -46,8 +46,7 @@
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.rulers": [
-    80,
-    120
+    // 80,120
   ],
   "extensions.ignoreRecommendations": true,
   "typescript.tsserver.log": "off",
@@ -173,32 +172,11 @@
   "update.showReleaseNotes": false,
   "security.promptForLocalFileProtocolHandling": false,
   "workbench.activityBar.location": "default",
-  "custom-ui-style.electron": {
-    "frame": false,
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "opacity": 0.96,
-    "visualEffectState": "active",
-    "vibrancy": "ultra-dark"
-  },
-  "custom-ui-style.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-  },
-  "custom-ui-style.font.sansSerif": "Inter, -apple-system",
+  
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
   "window.titleBarStyle": "custom", // Em caso de Mac usar *native*
-  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.vertical": "visible",
   "explorer.sortOrder": "foldersNestsFiles",
   "cSpell.userWords": [
     "automations",
